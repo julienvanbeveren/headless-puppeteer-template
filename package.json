@@ -1,0 +1,29 @@
+{
+  "name": "headless-puppeteer-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julienvanbeveren/headless-puppeteer-template.git"
+  },
+  "keywords": [],
+  "author": "Julien Van Beveren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julienvanbeveren/headless-puppeteer-template/issues"
+  },
+  "homepage": "https://github.com/julienvanbeveren/headless-puppeteer-template#readme",
+  "dependencies": {
+    "puppeteer": "^19.10.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
